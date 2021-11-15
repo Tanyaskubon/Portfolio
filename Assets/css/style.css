@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lavenderblush;
+}
+
+header {
+    padding: 30px 35px;
+    background-color: #b2398e;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color: lightpink;
+  }
+
+  header nav {
+    margin: 7px 0;
+  }
+
+  header a {
+    color:lightpink;
+    text-decoration: none;
+    
+  }
+
+
+  header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 20px;
+  }
