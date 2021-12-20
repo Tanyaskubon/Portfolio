@@ -1,12 +1,45 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/*up date for desin */
+    :root {
+     font-family: 'Courier New', Courier, monospace;
+     font-weight: 300;
+     font-style: italic;
+
+     color: lavender;
+     color:lightpink;
+     color: #b2398e;
+
+     h1 {font-size: 2rem;}
+     h2 {font-size: 2.25rem;} h3 {font-size: 1.25rem;} body {font-size: 1rem;}
+     
+     @media (min-width: 800px) {
+       :root {
+        h1 {font-size: 4.5;}
+        h2 {font-size: 3.75rem;} h3 {font-size: 1.5rem;} body {font-size: 1.125rem;}
+       }
+
+     }
+
+     /* general style*/
+  
 
 body {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    background-color: lavenderblush;
+    background: rgb(235, 172, 193);
+    color: #b2398e;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    line-height: 1.6;
+}
+
+img {
+  display: block;
+  max-width: 100;
 }
 
 header {
